@@ -35,12 +35,16 @@ public class Controlador {
                 case 4 ->{
                     vista.reporte4();
                 }
+                case 5 ->{
+                    System.out.println("Programa terminado.");
+                    break;
+                }
                 default ->{
                     System.out.println("Opcion no valida. Intenta de nuevo.");
                 }
             }
             
-        }while(opcion != 1);
+        }while(opcion != 5);
         
         lectorDatos.cerrar();
         
